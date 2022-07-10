@@ -358,8 +358,8 @@ h1 {
     object-fit: cover;
 }
 .mainTratamientos {
-    background-color: hsl(119, 33%, 65%);
-    padding: 50px 0;
+    background-color: hsl(119, 33%, 90%);
+    padding: 130px 0 40px;
 }
 .tratamiento{
     display: flex;
@@ -367,9 +367,17 @@ h1 {
     flex-wrap: wrap;
 }
 .tratamiento__card {
-    align-content: space-around;
+    margin: 5px;
+    border: outset 6px hsl(119, 33%, 55%);
+    border-bottom-left-radius: 105px;
+    border-top-right-radius: 105px;
+    width: 300px;
+    height: 300px;
+    box-shadow: 2px 4px 10px 0 black;
 }
 .tratamiento__card__img {
-    width: 400px;
-    height: 400px;
+    border-bottom-left-radius: 99px;
+    border-top-right-radius: 99px;
+    width: 301px;
+    height: 301px;
 }
