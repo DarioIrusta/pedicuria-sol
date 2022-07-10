@@ -357,27 +357,37 @@ h1 {
     border-bottom: solid 3px black;
     object-fit: cover;
 }
+.bodytratamiento {
+    display: grid;
+    height: 100vh;
+}
 .mainTratamientos {
+    display: flex;
     background-color: hsl(119, 33%, 90%);
     padding: 130px 0 40px;
 }
 .tratamiento{
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-}
-.tratamiento__card {
-    margin: 5px;
-    border: outset 6px hsl(119, 33%, 55%);
-    border-bottom-left-radius: 105px;
-    border-top-right-radius: 105px;
-    width: 300px;
-    height: 300px;
-    box-shadow: 2px 4px 10px 0 black;
+    display: grid;
+    margin: 0 auto;
+    grid-template-columns: 350px 350px 350px;
+    grid-template-rows: 350px 350px 350px 350px;
 }
 .tratamiento__card__img {
-    border-bottom-left-radius: 99px;
-    border-top-right-radius: 99px;
-    width: 301px;
-    height: 301px;
+    width: 90%;
+    height: 90%;
+    object-fit: fill;
+    margin: auto;
+    border: outset 6px hsl(119, 33%, 55%);
+    border-bottom-left-radius: 75px;
+    border-top-right-radius: 75px;
+    box-shadow: 2px 4px 10px 0 black;
+}
+.tratamiento__card__img:first-child {
+    grid-column: 1 / 3;
+}
+.tratamiento__card__img:nth-child(6) {
+    grid-column: 1 / 3;
+}
+.tratamiento__card__img:nth-child(9) {
+    grid-column: 2 / 4;
 }
