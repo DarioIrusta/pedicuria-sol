@@ -4,34 +4,50 @@
 }
 h1 {
     font-family: 'Send Flowers', cursive;
-    font-size: 50px;
-    display: inline;
+    font-size: 40px;
 }
-.logoPrincipal {
-    height: 150px;
-    width: 150px;
-}
-.navegador {
+.logoytitulo {
     display: flex;
     align-items: center;
-    justify-content: center;
+}
+.logoPrincipal {
+    height: 109x;
+    width: 70px;
+    margin: 10px 10px;
+    background: hsl(119, 33%, 90%);
+    border: solid 1px black;
+    border-radius: 100%;
+    box-shadow: 1px 2px 5px 0 black;
+}
+.navegador {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
     background-color: hsl(119, 33%, 75%);
+    background-image: linear-gradient(90deg, hsl(119, 33%, 25%), hsl(119, 33%, 40%), hsl(119, 33%, 50%), hsl(119, 33%, 40%), hsl(119, 33%, 25%));
     border-bottom: solid 3px hsl(119, 33%, 25%);
 }
-.navegador__lista{
-    margin-left: 150px; 
-}
 .navegador__lista__item {
-    display: inline;
-    background-color: hsl(119, 33%, 45%); 
+    display: inline-block;
+    background-color: hsl(119, 33%, 35%); 
+    margin: 0 2px;
     border: solid 2px black;
+    box-shadow: 1px 2px 5px 0 black;
+}
+.navegador__lista__item:hover {
+    transform: scale(1.1);
+    background-color: hsl(119, 33%, 15%);
+    transition: transform .5s, background .3s;
 }
 .navegador__lista__item a{
     text-decoration: none;
     color: white;
     padding: 5px;
-    font-size: 20px;
-    font-family: 'Courier New', Courier, monospace;
+    font-size: 17px;
+    font-style: normal;
+    font-family: 'Roboto', sans-serif;
 }
 .indexPrincipal{
     background-color: hsl(119, 33%, 65%);
