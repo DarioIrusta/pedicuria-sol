@@ -245,34 +245,46 @@ h1 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-style: italic;
 }
-.QuienSoy {
-    display: flex;
-    justify-content: space-evenly;
+.mainQuienSoy {
+    padding-top: 130px;
+    padding-bottom: 40px;
+    background: hsl(119, 33%, 90%);
+    font-family: 'Roboto', sans-serif; 
 }
-.quiensoy__texto {
-    width: 50%;
+.subtituloQuienSoy{
+    padding-left: 10%;
+    text-align: left;
+    font-size: 30px;
+}
+.QuienSoy {
+    margin: auto;
+    padding: 30px;
+    width: 60%;
     justify-self: center;
     align-self: center;
-    text-align: center;
     font-size: 25px;
     font-style: italic;
+    text-align:center;    
 }
 .quiensoy__foto {
-    height: 400px;
-    width: 300px;
+    margin: 15px;
+    float: right;
+    height: 300px;
+    width: 250px;
     border-top-left-radius: 15%;
     border-bottom-right-radius: 15%;
+    box-shadow: 2px 4px 10px 2px black;
+    object-fit: cover;
 }
 .subtituloTitulos{
     padding-left: 10%;
     text-align: left;
     font-size: 20px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-style: italic;
 }
 .titulos {
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
     padding-top: 25px;
 }
 .titulosfoto {
