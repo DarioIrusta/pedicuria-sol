@@ -202,48 +202,21 @@ h1 {
 .formularioContacto {
     margin: 0 auto;
     padding: 30px;
-    width: 40%;
-    min-width: 40%;
-    max-width: 80%;
+    width: 80%;
     background-color: hsl(119, 33%, 65%);
     border: solid 2px black;
     border-bottom-left-radius: 55px;
     border-top-right-radius: 55px;
     font-size: 20px;
 }
-.formularioContacto__input {
-    margin: 5px;
-    padding: 5px;
-    width: 95%;
-    height: 18px;
-    border: none;
-    border-bottom: solid 3px black;
-    background: transparent;
-    font-size: 20px;
-    font-family: 'Roboto', sans-serif; 
-    font-weight: bold;
-}
-.formularioContacto__input:focus {
-    background: linear-gradient(to bottom, transparent, hsl(119, 33%, 50%));
-    outline: none;
-}
-.formularioContacto textarea {
-    min-height: 140px;
-    resize: none;
-}
-.botonEnviar {
+.btn {
     color: white;
     background: linear-gradient(180deg, hsl(119, 33%, 50%), hsl(119, 33%, 30%));
     border: solid 1px black;
     border-radius: 5px;
-    margin-top: 15px;
-    margin-left: 50px;
-    height: 30px;
-    width: 30%;
-    font-size: 80%;
     font-family: 'Roboto', sans-serif; 
 }
-.botonEnviar:hover {
+.btn:hover {
     background: linear-gradient(180deg, hsl(119, 33%, 40%), hsl(119, 33%, 20%));
 }
 .mainQuienSoy {
@@ -443,7 +416,7 @@ h1 {
         padding-left: 2%;
     } 
     .mainContacto {
-        padding-top: 150px;
+        padding-top: 130px;
     }
     .ubicacion__lista {
         padding-left: 0;
@@ -462,16 +435,8 @@ h1 {
     }
     .formularioContacto {
         padding: 20px;
-        width: 70%;
-        max-width: 70%;
+        width: 90%;
         font-size: 15px;
-    }
-    .botonEnviar {
-        margin-left: 20px;
-        height: 30px;
-        width: 50%;
-        font-size: 14px;
-        font-family: 'Roboto', sans-serif; 
     }
     .mainQuienSoy {
         padding-top: 150px;

@@ -43,31 +43,39 @@
         </section>
         <section>
             <p class="subtituloFormulario"><b>O podés consultarme por turnos aquí:</b></p>
-            <form class="formularioContacto">
-                <div>
-                    <p><b>Nombre Completo</b></p>
-                    <input type="text" class="formularioContacto__input" required>
-                </div>
-                <div>
-                    <p><b>Email</b></p>
-                    <input type="email" class="formularioContacto__input" required>
-                </div>
-                <div>
-                    <p><b>Teléfono</b></p>
-                    <input type="tel" class="formularioContacto__input" required>
-                </div>
-                <div>
-                    <p><b>Consulta</b></p>
-                    <textarea class="formularioContacto__input" cols="30" rows="10"></textarea>
-                </div>
-                <div>
-                    <input type="radio" id="masculino" name="genero">
-                    <label for=""><b>Hombre</b></label>
-                    <input type="radio" id="femenino" name="genero">
-                    <label for=""><b>Mujer</b></label>
-                </div>	
-                <input type="submit" class="botonEnviar" value="Enviar Consulta">
-            </form>
+            <section class="formularioContacto">
+                <form class="row g-3">
+                    <div class="col-md-6">
+                      <label for="inputName" class="form-label"><b>Nombre</b></label>
+                      <input type="text" class="form-control" id="inputName">
+                    </div>
+                    <div class="col-md-6">
+                      <label for="inputLastname" class="form-label"><b>Apellido</b></label>
+                      <input type="text" class="form-control" id="inputLastname">
+                    </div>
+                    <div class="col-12">
+                      <label for="inputEmail" class="form-label"><b>Email</b></label>
+                      <input type="email" class="form-control" id="inputEmail" placeholder="Ejemplo@mail.com">
+                    </div>
+                    <div class="col-12">
+                      <label for="inputPhone" class="form-label"><b>Teléfono</b></label>
+                      <input type="tel" class="form-control" id="inputPhone" placeholder="123456789">
+                    </div>
+                    <div class="col-12">
+                        <label for="exampleFormControlTextarea1" class="form-label"><b>Consulta</b></label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                      </div>
+                    <div class="col-12">
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected>Seleccione una opción</option>
+                            <option value="Hombre">Hombre</option>
+                            <option value="Mujer">Mujer</option>
+                        </select>
+                    </div>
+                    <div class="col-12">
+                      <button type="submit" class="btn"><b>Enviar consulta</b></button>
+                    </div>
+            </section>
         </section>
     </main>
     <footer class="pie">
