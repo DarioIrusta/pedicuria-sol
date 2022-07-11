@@ -209,6 +209,28 @@ h1 {
     border-top-right-radius: 55px;
     font-size: 20px;
 }
+.form-control {
+    border: none;
+    border-bottom: solid 3px black;
+    background: transparent;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif; 
+    border-radius: 0;
+}
+.form-control:focus {
+    background: linear-gradient(to bottom, transparent, hsl(119, 33%, 50%));
+    box-shadow: none;
+    border: none;
+    border-bottom: solid 3px black;
+}
+.form-select {
+    background-color: hsl(119, 33%, 65%);
+    border: 1px solid black;
+}
+.form-select:focus {
+    box-shadow: none;
+    border-color: black;
+}
 .btn {
     color: white;
     background: linear-gradient(180deg, hsl(119, 33%, 50%), hsl(119, 33%, 30%));
