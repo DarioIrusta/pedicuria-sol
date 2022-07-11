@@ -13,22 +13,24 @@ h1 {
 .logoytitulo {
     display: flex;
     align-items: center;
+    margin-left: 15%;
 }
 .logoPrincipal {
     height: 109x;
     width: 70px;
-    margin: 10px 10px;
+    margin: 0px 10px;
     background: hsl(119, 33%, 90%);
     border: solid 1px black;
     border-radius: 100%;
     box-shadow: 1px 2px 5px 0 black;
 }
+.navbar-collapse {
+    display:flex;
+    justify-content:center;
+}
 .navegador {
     position: fixed;
     width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
     background-color: hsl(119, 33%, 75%);
     background-image: linear-gradient(90deg, hsl(119, 33%, 25%), hsl(119, 33%, 40%), hsl(119, 33%, 50%), hsl(119, 33%, 40%), hsl(119, 33%, 25%));
     border-bottom: solid 3px hsl(119, 33%, 25%);
@@ -53,8 +55,9 @@ h1 {
     font-style: normal;
     font-family: 'Roboto', sans-serif;
 }
+
 .indexPrincipal{
-    padding-top: 130px;
+    padding-top: 140px;
     background: hsl(119, 33%, 90%);
 }
 .subtituloIndex {
@@ -397,10 +400,19 @@ h1 {
         font-size: 30px;
         margin-right: 10px;
     }
+    .logoytitulo {
+        display: flex;
+        align-items: center;
+        margin-left: 2%;
+    }
     .logoPrincipal {
-        height: 99x;
-        width: 60px;
-        margin: 10px 10px;
+        height: 75x;
+        width: 50px;
+        margin: 0px 5px;
+    }
+    .navbar-collapse {
+        display:flex;
+        flex-direction: column;
     }
     .navegador__lista__item {
         margin: 2px;
@@ -427,12 +439,14 @@ h1 {
         width: 250px;
         height: 220px;
     }
+    .subtituloContacto {
+        padding-left: 2%;
+    } 
     .mainContacto {
         padding-top: 150px;
     }
-    .ubicacion {
-        grid-template-columns: auto;
-        grid-template-rows: repeat(4, auto);
+    .ubicacion__lista {
+        padding-left: 0;
     }
     .ubicacion__item {
         margin: 5px 5px;
@@ -470,6 +484,7 @@ h1 {
     }
     .quiensoy__foto {
         float: none;
+        margin: 15px 0;
     }
     .subtituloTitulos{
         padding: 5px;
@@ -479,6 +494,9 @@ h1 {
         height: 200px;
         width: 300px;
         margin: 5px auto;
+    }
+    .resena__lista {
+        padding-left: 0;
     }
     .mainTratamientos {
         padding: 150px 0 40px;

@@ -1,53 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Send+Flowers&display=swap" rel="stylesheet">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="style.css">
-        <title>Pedicuria Sol | Inicio</title>
-    </head>
-    <body>
-        <header>
-            <nav class="navegador">            
-                <h1 class="logoytitulo"><img class="logoPrincipal" src="./imagenes/logos/logo.png" alt="pedicuria sol logo">Pedicuria Sol</h1>
-                <ul class="navegador__lista">
-                    <li class="navegador__lista__item"><a href="#">Inicio</a></li>
-                    <li class="navegador__lista__item"><a href="./paginas/contacto.html">Contacto</a></li>
-                    <li class="navegador__lista__item"><a href="./paginas/quien-soy.html">¿Quién soy?</a></li>
-                    <li class="navegador__lista__item"><a href="./paginas/tratamientos.html">Tratamientos</a></li> 
-                    <li class="navegador__lista__item"><a href="./paginas/galeria.html">Galería</a></li>
-                </ul>
-            </nav>
-        </header>
-        <main class="indexPrincipal">
-            <h2 class="subtituloIndex"><b>Pedicuría Sol está aquí para ayudar.</b></h2>
-            <h3 class="subtituloIndex2">B i e n v e n i d o</h3>
-            <p class="textoIndex">Mi mentalidad es asegurarme que los pacientes tengan un ambiente amistoso y seguro cada vez que me visiten. Trato una larga gama de malestares del pie y tobillo como problemas de diabetes, heridas, fracturas en las uñas, uñas encarnadas y más. También ofrezco plantillas ortopédicas y otros dispositivos de tratamiento ortopédico. Todo lo que hago está centrado en aliviar tu dolor, ponerte de nuevo en tus pies y que vuelvas a la vida.</p>
-            <div class="indexImagenes">
-                <div class="indexImagenes__Items"><img class="fotosIndex" src="./imagenes/index/index1.jpg" alt="pacientes recuperados"><br>Mucho dolor</div>
-                <div class="indexImagenes__Items"><img class="fotosIndex" src="./imagenes/index/index2.jpg" alt="pacientes recuperados"><br>Pie de atleta</div>
-                <div class="indexImagenes__Items"><img class="fotosIndex" src="./imagenes/index/index3.jpg" alt="pacientes recuperados"><br>Pie diabetico</div>
-                <div class="indexImagenes__Items"><img class="fotosIndex" src="./imagenes/index/index4.jpg" alt="pacientes recuperados"><br>Uñas encarnadas</div>
-                <div class="indexImagenes__Items"><img class="fotosIndex" src="./imagenes/index/index5.jpg" alt="pacientes recuperados"><br>Hongos en las uñas</div>
-            </div>
-            <h2 class="subtituloIndex"><b>Tomá el primer paso a volver a hacer lo que amás.</b></h2>
-            <h3 class="subtituloIndex2">Empezá a vivir libre de dolores</h3>
-            <p class="textoIndex">
-                En pedicura Sol, con dirección en Guaymallén, Mendoza, pusimos el estándar en cuidado podológico. Como especialista uso lo último en tecnología de pies. Ofrezco rayos X, resonancias magnéticas y otros tipos de diagnósticos en nuestro consultorio para tu conveniencia. Y, hablando de conveniencia, mi consultorio cuenta con accesos para todo tipo de pacientes. <br> Sé perfectamente que cada pie, cada condición o inclusive cada paciente no es igual. Por eso hago cada plantilla personalizada para cada situación específica, para aliviar el dolor y recobrar tu estilo de vida. Para ese propósito, me comprometo a informarte, involucrarte y darte la confianza desde tu primera visita de tratamiento, hasta atravesar toda tu recuperación.</p>
-        </main>
-        <footer class="pie">
-            <ul class="pie__lista">
-                <li class="pie__lista__item"><a href="https://www.facebook.com/sol.pedicura" target="_blank"><img src="./imagenes/logos/fb.png" alt="logo facebook" class="logospie"><b>/sol.pedicura</b></a></li>
-                <li class="pie__lista__item"><a href="https://www.instagram.com/pedicuria.sol" target="_blank"><img src="./imagenes/logos/ig.png" alt="logo instagram" class="logospie"><b>@pedicuria.sol</b></a></li>
-                <li class="pie__lista__item"><a href="https://ar.linkedin.com/in/marisol-lebrino-8a731168" target="_blank"><img src="./imagenes/logos/lnk.png" alt="logo linkedin" class="logospie"><b>Marisol Lebrino</b></a></li>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Send+Flowers&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Pedicuria Sol | Inicio</title>
+    
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navegador">            
+            <h1 class="logoytitulo"><img class="logoPrincipal" src="./imagenes/logos/logo.png" alt="pedicuria sol logo"><b>Pedicuria Sol</b></h1>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <ul class="navegador__lista collapse navbar-collapse" id="navbarNav">
+                <li class="navegador__lista__item"><a href="#">Inicio</a></li>
+                <li class="navegador__lista__item"><a href="./paginas/contacto.html">Contacto</a></li>
+                <li class="navegador__lista__item"><a href="./paginas/quien-soy.html">¿Quién soy?</a></li>
+                <li class="navegador__lista__item"><a href="./paginas/tratamientos.html">Tratamientos</a></li> 
+                <li class="navegador__lista__item"><a href="./paginas/galeria.html">Galería</a></li>
             </ul>
-        </footer>
+        </nav>
+    </header>
+    <main class="indexPrincipal">
+        <h2 class="subtituloIndex"><b>Pedicuría Sol está aquí para ayudar.</b></h2>
+        <h3 class="subtituloIndex2">B i e n v e n i d o</h3>
+        <p class="textoIndex">Mi mentalidad es asegurarme que los pacientes tengan un ambiente amistoso y seguro cada vez que me visiten. Trato una larga gama de malestares del pie y tobillo como problemas de diabetes, heridas, fracturas en las uñas, uñas encarnadas y más. También ofrezco plantillas ortopédicas y otros dispositivos de tratamiento ortopédico. Todo lo que hago está centrado en aliviar tu dolor, ponerte de nuevo en tus pies y que vuelvas a la vida.</p>
+        <div class="indexImagenes">
+            <div class="indexImagenes__Items"><img class="fotosIndex" src="./imagenes/index/index1.jpg" alt="pacientes recuperados"><br>Mucho dolor</div>
+            <div class="indexImagenes__Items"><img class="fotosIndex" src="./imagenes/index/index2.jpg" alt="pacientes recuperados"><br>Pie de atleta</div>
+            <div class="indexImagenes__Items"><img class="fotosIndex" src="./imagenes/index/index3.jpg" alt="pacientes recuperados"><br>Pie diabetico</div>
+            <div class="indexImagenes__Items"><img class="fotosIndex" src="./imagenes/index/index4.jpg" alt="pacientes recuperados"><br>Uñas encarnadas</div>
+            <div class="indexImagenes__Items"><img class="fotosIndex" src="./imagenes/index/index5.jpg" alt="pacientes recuperados"><br>Hongos en las uñas</div>
+        </div>
+        <h2 class="subtituloIndex"><b>Tomá el primer paso a volver a hacer lo que amás.</b></h2>
+        <h3 class="subtituloIndex2">Empezá a vivir libre de dolores</h3>
+        <p class="textoIndex">
+            En pedicura Sol, con dirección en Guaymallén, Mendoza, pusimos el estándar en cuidado podológico. Como especialista uso lo último en tecnología de pies. Ofrezco rayos X, resonancias magnéticas y otros tipos de diagnósticos en nuestro consultorio para tu conveniencia. Y, hablando de conveniencia, mi consultorio cuenta con accesos para todo tipo de pacientes. <br> Sé perfectamente que cada pie, cada condición o inclusive cada paciente no es igual. Por eso hago cada plantilla personalizada para cada situación específica, para aliviar el dolor y recobrar tu estilo de vida. Para ese propósito, me comprometo a informarte, involucrarte y darte la confianza desde tu primera visita de tratamiento, hasta atravesar toda tu recuperación.</p>
+    </main>
+    <footer class="pie">
+        <ul class="pie__lista">
+            <li class="pie__lista__item"><a href="https://www.facebook.com/sol.pedicura" target="_blank"><img src="./imagenes/logos/fb.png" alt="logo facebook" class="logospie"><b>/sol.pedicura</b></a></li>
+            <li class="pie__lista__item"><a href="https://www.instagram.com/pedicuria.sol" target="_blank"><img src="./imagenes/logos/ig.png" alt="logo instagram" class="logospie"><b>@pedicuria.sol</b></a></li>
+            <li class="pie__lista__item"><a href="https://ar.linkedin.com/in/marisol-lebrino-8a731168" target="_blank"><img src="./imagenes/logos/lnk.png" alt="logo linkedin" class="logospie"><b>Marisol Lebrino</b></a></li>
+        </ul>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
 </html>
