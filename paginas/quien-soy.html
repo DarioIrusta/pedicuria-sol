@@ -12,7 +12,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../style.css">
-    <title>Pedicuria Sol | Quien Soy?</title>
+    <title>Pedicuría Sol | ¿Quién Soy?</title>
 </head>
 <body>
     <header>
@@ -24,7 +24,7 @@
             <ul class="navegador__lista collapse navbar-collapse" id="navbarNav">
                 <li class="navegador__lista__item"><a href="../index.html">Inicio</a></li>
                 <li class="navegador__lista__item"><a href="./contacto.html">Contacto</a></li>
-                <li class="navegador__lista__item"><a href="#">Quién soy</a></li>
+                <li class="navegador__lista__item"><a href="#">¿Quién soy?</a></li>
                 <li class="navegador__lista__item"><a href="./tratamientos.html">Tratamientos</a></li>
                 <li class="navegador__lista__item"><a href="./galeria.html">Galería</a></li>
             </ul>
@@ -33,15 +33,56 @@
     <main  class="mainQuienSoy">
         <h2 class="subtituloQuienSoy">Soy Marisol Lebrino</h2>
         <section class="QuienSoy">
-            <img class="quiensoy__foto" src="../imagenes/quiensoy/mua.jpg" alt="Foto de la doctora lebrino" class="quiensoy__foto">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus repudiandae beatae ea accusamus, reiciendis consequuntur. Quis ipsam nesciunt optio deleniti? Eos est voluptas, quia quod expedita, laborum quisquam mollitia facere quidem harum consequuntur aut, facilis itaque pariatur animi ratione dignissimos perspiciatis maxime. Illum veritatis inventore magni, ipsa, ut cupiditate porro veniam repellendus ullam nostrum numquam officiis voluptatum minima! Facere, voluptate eaque neque necessitatibus quisquam incidunt magnam minima molestias rem eum ex ipsa expedita possimus quaerat esse adipisci eius beatae doloremque odio odit! Eum, explicabo aperiam nisi quas suscipit officia delectus maxime fugiat doloribus alias natus dolorem corrupti incidunt voluptates laboriosam tenetur ipsam est et at beatae libero! Saepe omnis quo porro illum, facere animi, rem magnam quidem quasi qui similique molestias neque dolorem assumenda voluptatibus, laudantium architecto quod fuga? Recusandae in, quam excepturi nesciunt magni eveniet consectetur, veniam, voluptates provident accusantium eum error alias magnam quisquam quis laborum obcaecati dolorum vel unde! Consectetur dolore eligendi dignissimos praesentium culpa perferendis, beatae.
+            <div class="clearfix">
+                <img src="../imagenes/quiensoy/mua.jpg" class="col-md-6 float-md-end mb-3 ms-md-3 quiensoy__foto" alt="Foto de la doctora lebrino">
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum fuga ex voluptas enim voluptatum labore voluptatem quis. Modi cum at obcaecati molestias porro repellendus rem, repudiandae voluptates, iste repellat mollitia nam. Repellendus harum, asperiores totam excepturi nam ullam! Impedit, consequatur.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit impedit cumque, laborum id ratione error ut libero possimus iure facilis reiciendis commodi quasi hic quos nostrum fugit optio inventore! Harum enim asperiores, consequuntur soluta cupiditate consequatur odit perspiciatis ullam ea minus vero distinctio facere, mollitia dignissimos quos. Sapiente, dolor unde.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti consectetur illum voluptas. Eveniet, tenetur quas. Nemo veniam cum eveniet necessitatibus incidunt aliquam autem, corporis, officia eligendi dolores alias recusandae voluptatum. Quasi iure eum aperiam veniam saepe temporibus officia quis esse iste vel optio unde, inventore ipsam odit dolorem tenetur nesciunt soluta possimus ducimus doloremque amet voluptatem vero ipsum sint! Incidunt.
+                </p>
+            </div>
         </section>
         <h3 class="subtituloTitulos">Títulos y Certificados que abalan mis conocimientos:</h3>
         <section class="titulos">
-            <img src="" alt="Titulo" class="titulosfoto">
-            <img src="" alt="Certificado 1" class="titulosfoto">
-            <img src="" alt="Certificado 2" class="titulosfoto">
-        </section>
+          <div id="carrouseltitulos" class="carousel carousel-dark slide" data-bs-ride="false">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carrouseltitulos" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carrouseltitulos" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carrouseltitulos" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="../imagenes/titulosycert/a.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <p>Titulo en Coso</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="../imagenes/titulosycert/a.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <p>Titulo en Coso</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="../imagenes/titulosycert/a.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <p>Titulo en Coso</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carrouseltitulos" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carrouseltitulos" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
     </main>
     <footer class="pie">
         <ul class="pie__lista">
