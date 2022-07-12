@@ -360,39 +360,22 @@ ul {
     border-bottom: solid 3px black;
     object-fit: cover;
 }
-.bodytratamiento {
-    display: grid;
-    height: 100vh;
-}
 .mainTratamientos {
-    display: flex;
-    background-color: hsl(119, 33%, 90%);
-    padding: 130px 0 40px;
+    padding-top: 130px;
+    padding-bottom: 20px;
 }
-.tratamiento{
-    display: grid;
-    margin: 0 auto;
-    grid-template-columns: 350px 350px 350px;
-    grid-template-rows: 350px 350px 350px 350px;
-}
-.tratamiento__card__img {
+.containerSlideTrat {
     width: 90%;
-    height: 90%;
-    object-fit: fill;
-    margin: auto;
-    border: outset 6px hsl(119, 33%, 55%);
-    border-bottom-left-radius: 75px;
-    border-top-right-radius: 75px;
+}
+.card__img {
+    margin: 10px;
+    padding: 0;
+    background-color: rgb( 203, 255, 238);
     box-shadow: 2px 4px 10px 0 black;
-}
-.tratamiento__card__img:first-child {
-    grid-column: 1 / 3;
-}
-.tratamiento__card__img:nth-child(6) {
-    grid-column: 1 / 3;
-}
-.tratamiento__card__img:nth-child(9) {
-    grid-column: 2 / 4;
+    object-fit: contain;
+    border: outset 6px hsl(119, 33%, 55%);
+    border-bottom-left-radius: 25px;
+    border-top-right-radius: 25px;
 }
 @media screen and (max-width: 600px) {
     
@@ -486,27 +469,12 @@ ul {
         padding-left: 0;
     }
     .mainTratamientos {
-        padding: 150px 0 40px;
+        padding-top: 110px;
+        padding-bottom: 15px;
     }
-    .tratamiento{
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: repeat(6, 150px);
-    }
-    .tratamiento__card__img:first-child {
-        grid-column: 1 / 3;
-    }
-    .tratamiento__card__img:nth-child(6) {
-        grid-column: 1 / 3;
-    }
-    .tratamiento__card__img:nth-child(9) {
-        grid-column: 1 / 3;
-    }
-    .tratamiento__card__img {
-        margin: 10px auto;
-        border: outset 3px hsl(119, 33%, 55%);
-        border-bottom-left-radius: 50px;
-        border-top-right-radius: 50px;
-        object-fit: fill;
+    .card__img {
+        margin: 10px 0;
+        border: outset 5px hsl(119, 33%, 55%);
     }
     .pie__lista__item {
         display: block;
