@@ -1,0 +1,103 @@
+@media screen and (max-width: 600px) {
+    
+    h1 {
+        font-family: 'Send Flowers', cursive;
+        font-size: 30px;
+        margin-right: 10px;
+    }
+    .logoytitulo {
+        display: flex;
+        align-items: center;
+        margin-left: 2%;
+    }
+    .logoPrincipal {
+        height: 75x;
+        width: 50px;
+        margin: 0px 5px;
+    }
+    .navbar-collapse {
+        display:flex;
+        flex-direction: column;
+    }
+    .navegador__lista__item {
+        margin: 2px;
+    }
+    .navegador__lista__item a{
+        font-size: 16px;
+    }
+    .indexPrincipal {
+        padding-top: 150px;
+    }
+    .subtituloIndex {
+        font-size: 25px;
+    }
+    .subtituloIndex2 {
+        font-size: 20px;
+    }
+    .textoIndex {
+        width: auto;
+    }
+    .indexImagenes {
+        font-size: 15px;
+    }
+    .fotosIndex {
+        width: 250px;
+        height: 220px;
+    }
+    .subtituloContacto {
+        padding-left: 2%;
+    } 
+    .mainContacto {
+        padding-top: 130px;
+    }
+    .ubicacion__lista {
+        padding-left: 0;
+    }
+    .ubicacion__item {
+        margin: 5px 5px;
+        font-size: 15px;
+    }
+    .ubicacion__lista__item {
+        margin: 10px 10px;
+    }
+    .map {
+        width: 250px;
+        height: 250px;
+        margin: 25px 0;
+    }
+    .formularioContacto {
+        padding: 20px;
+        width: 90%;
+        font-size: 15px;
+    }
+    .QuienSoy {
+        padding: 15px;
+        width: 90%;
+        font-size: 20px;
+    }
+    .quiensoy__foto {
+        width: 200px;
+        height: 250px;
+    }
+    .subtituloTitulos{
+        padding: 5px;
+        text-align: center;
+    }
+    .titulos {
+        width: 85%;
+    }
+    .resena__lista {
+        padding-left: 0;
+    }
+    .mainTratamientos {
+        padding-top: 110px;
+        padding-bottom: 15px;
+    }
+    .card__img {
+        margin: 10px 0;
+        border: outset 5px hsl(119, 33%, 55%);
+    }
+    .pie__lista__item {
+        display: block;
+    }
+}

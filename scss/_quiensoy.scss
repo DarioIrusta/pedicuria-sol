@@ -1,0 +1,50 @@
+.mainQuienSoy {
+    padding-top: 130px;
+    padding-bottom: 40px;
+    background: map-get($colores, "color-fondo");
+    font-family: 'Roboto', sans-serif; 
+}
+.subtituloQuienSoy{
+    padding-left: 10%;
+    text-align: left;
+    font-size: 30px;
+}
+.QuienSoy {
+    margin: auto;
+    padding: 30px;
+    width: 70%;
+    font-size: 25px;
+    font-style: italic;
+    text-align: center;    
+}
+.quiensoy__foto {
+    margin: 15px;
+    height: 350px;
+    width: 350px;
+    border-top-left-radius: 15%;
+    border-bottom-right-radius: 15%;
+    box-shadow: 2px 4px 10px 2px black;
+    object-fit: cover;
+}
+.subtituloTitulos{
+    padding-left: 10%;
+    text-align: left;
+    font-size: 20px;
+}
+.titulos {
+    margin: 25px auto;
+    width: 65%;
+    box-shadow: 2px 4px 10px 0 black;
+}
+.carousel-caption {
+    margin: 5px auto;
+    padding: 5px 10px 0px 10px;
+    width: max-content;
+    background-color: hsl(119, 33%, 65%);
+    border-bottom-left-radius: 25px;
+    border-top-right-radius: 25px;
+    box-shadow: 2px 4px 10px 0 black;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+}
