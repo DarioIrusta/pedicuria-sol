@@ -43,18 +43,17 @@ ul {
     margin: 0 2px;
     border: solid 2px black;
     box-shadow: 1px 2px 5px 0 black; }
+    .navegador__lista__item a {
+      text-decoration: none;
+      color: white;
+      padding: 5px;
+      font-size: 17px;
+      font-style: normal;
+      font-family: 'Roboto', sans-serif; }
     .navegador__lista__item:hover {
       transform: scale(1.1);
       background-color: #1a331a;
       transition: transform .5s, background .3s; }
-
-.navegador__lista__item a {
-  text-decoration: none;
-  color: white;
-  padding: 5px;
-  font-size: 17px;
-  font-style: normal;
-  font-family: 'Roboto', sans-serif; }
 
 .indexPrincipal {
   padding-top: 140px;
@@ -87,14 +86,13 @@ ul {
   display: flex;
   flex-wrap: wrap;
   justify-content: center; }
-
-.indexImagenes__Items {
-  margin: 30px 5px;
-  background-color: #3d773c;
-  border: solid 1px black;
-  border-bottom-left-radius: 50px;
-  border-top-right-radius: 50px;
-  box-shadow: 2px 4px 10px 0 black; }
+  .indexImagenes__Items {
+    margin: 30px 5px;
+    background-color: #3d773c;
+    border: solid 1px black;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    box-shadow: 2px 4px 10px 0 black; }
 
 .fotosIndex {
   border-bottom-left-radius: 50px;
@@ -106,31 +104,29 @@ ul {
   display: flex;
   justify-content: center;
   background-image: linear-gradient(90deg, #2b552b, #458844, #68b266, #458844, #2b552b); }
-
-.pie__lista__item {
-  display: inline-flex;
-  align-items: center;
-  margin: 20px;
-  padding-right: 10px;
-  background-color: #78bb77;
-  font-size: 20px;
-  font-family: 'Roboto', sans-serif;
-  border-bottom: solid 3px black;
-  border-bottom-left-radius: 30px;
-  border-top-right-radius: 30px;
-  box-shadow: 1px 2px 5px 0 black; }
-  .pie__lista__item:hover {
-    transform: scale(1.05);
-    transition: transform .5s, background .3s;
-    background-color: #4e994d; }
-
-.pie__lista__item a {
-  display: inline-flex;
-  align-items: center;
-  text-decoration: none;
-  color: #000;
-  font-size: 20px;
-  font-family: 'Roboto', sans-serif; }
+  .pie__lista__item {
+    display: inline-flex;
+    align-items: center;
+    margin: 20px;
+    padding-right: 10px;
+    background-color: #78bb77;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    border-bottom: solid 3px black;
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 30px;
+    box-shadow: 1px 2px 5px 0 black; }
+    .pie__lista__item a {
+      display: inline-flex;
+      align-items: center;
+      text-decoration: none;
+      color: #000;
+      font-size: 20px;
+      font-family: 'Roboto', sans-serif; }
+    .pie__lista__item:hover {
+      transform: scale(1.05);
+      transition: transform .5s, background .3s;
+      background-color: #4e994d; }
 
 .logospie {
   margin: 10px;
@@ -152,21 +148,19 @@ ul {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap; }
-
-.ubicacion__lista {
-  align-self: center; }
-
-.ubicacion__lista__item {
-  display: flex;
-  align-items: center;
-  font-size: 20px;
-  list-style: none;
-  margin: 5px 0;
-  padding: 5px 0;
-  background-color: #78bb77;
-  border-bottom-left-radius: 15px;
-  border-top-right-radius: 15px;
-  box-shadow: 1px 2px 5px 0 black; }
+  .ubicacion__lista {
+    align-self: center; }
+    .ubicacion__lista__item {
+      display: flex;
+      align-items: center;
+      font-size: 20px;
+      list-style: none;
+      margin: 5px 0;
+      padding: 5px 0;
+      background-color: #78bb77;
+      border-bottom-left-radius: 15px;
+      border-top-right-radius: 15px;
+      box-shadow: 1px 2px 5px 0 black; }
 
 .logosContacto {
   height: 40px;
@@ -257,7 +251,7 @@ ul {
   font-style: italic;
   text-align: center; }
 
-.quiensoy__foto {
+.quiensoyfoto {
   margin: 15px;
   height: 350px;
   width: 350px;
@@ -296,7 +290,7 @@ ul {
 .containerSlideTrat {
   width: 90%; }
 
-.card__img {
+.tratamientosimg {
   margin: 10px;
   padding: 0;
   background-color: #cbffee;
@@ -328,40 +322,37 @@ ul {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap; }
+  .resena__lista {
+    align-self: center;
+    width: 400px; }
+    .resena__lista__item {
+      background: linear-gradient(-145deg, transparent, #abd4aa, #78bb77);
+      display: flex;
+      align-self: center;
+      text-align: left;
+      color: black;
+      font-size: 20px;
+      list-style: none;
+      margin: 7px 5px;
+      padding-bottom: 10px;
+      padding-left: 10px;
+      border-bottom: solid 2px black;
+      border-left: solid 2px black;
+      border-bottom-left-radius: 35px;
+      border-top-right-radius: 35px; }
+    .resena__lista__img {
+      height: 300px;
+      width: 300px;
+      display: inline-block;
+      margin: 30px 5px;
+      background-color: #3d773c;
+      border: solid 1px black;
+      border-bottom-left-radius: 50px;
+      border-top-right-radius: 50px;
+      box-shadow: 2px 4px 10px 0 black; }
 
 #bordeinf {
   border-bottom: solid 3px black; }
-
-.resena__lista {
-  align-self: center;
-  width: 400px; }
-
-.resena__lista__item {
-  background: linear-gradient(-145deg, transparent, #abd4aa, #78bb77);
-  display: flex;
-  align-self: center;
-  text-align: left;
-  color: black;
-  font-size: 20px;
-  list-style: none;
-  margin: 7px 5px;
-  padding-bottom: 10px;
-  padding-left: 10px;
-  border-bottom: solid 2px black;
-  border-left: solid 2px black;
-  border-bottom-left-radius: 35px;
-  border-top-right-radius: 35px; }
-
-.resena__lista__img {
-  height: 300px;
-  width: 300px;
-  display: inline-block;
-  margin: 30px 5px;
-  background-color: #3d773c;
-  border: solid 1px black;
-  border-bottom-left-radius: 50px;
-  border-top-right-radius: 50px;
-  box-shadow: 2px 4px 10px 0 black; }
 
 .fotosresena {
   height: 265px;
@@ -389,8 +380,8 @@ ul {
     flex-direction: column; }
   .navegador__lista__item {
     margin: 2px; }
-  .navegador__lista__item a {
-    font-size: 16px; }
+    .navegador__lista__item a {
+      font-size: 16px; }
   .indexPrincipal {
     padding-top: 150px; }
   .subtituloIndex {
@@ -410,11 +401,11 @@ ul {
     padding-top: 130px; }
   .ubicacion__lista {
     padding-left: 0; }
+    .ubicacion__lista__item {
+      margin: 10px 10px; }
   .ubicacion__item {
     margin: 5px 5px;
     font-size: 15px; }
-  .ubicacion__lista__item {
-    margin: 10px 10px; }
   .map {
     width: 250px;
     height: 250px;
@@ -427,7 +418,7 @@ ul {
     padding: 15px;
     width: 90%;
     font-size: 20px; }
-  .quiensoy__foto {
+  .quiensoyfoto {
     width: 200px;
     height: 250px; }
   .subtituloTitulos {
@@ -440,7 +431,7 @@ ul {
   .mainTratamientos {
     padding-top: 110px;
     padding-bottom: 15px; }
-  .card__img {
+  .tratamientosimg {
     margin: 10px 0;
     border: outset 5px #68b266; }
   .pie__lista__item {

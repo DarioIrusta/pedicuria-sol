@@ -20,40 +20,43 @@
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
+
+    &__lista {
+        align-self: center;
+        width: 400px;
+
+        &__item {
+            background: linear-gradient(-145deg, transparent, hsl(119, 33%, 75%), hsl(119, 33%, 60%));
+            display: flex;
+            align-self: center;
+            text-align: left;
+            color: black;
+            font-size: 20px;
+            list-style: none;
+            margin: 7px 5px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+            border-bottom: solid 2px black;
+            border-left: solid 2px black;
+            border-bottom-left-radius: 35px;
+            border-top-right-radius: 35px;
+        }
+
+        &__img {
+            height: 300px;
+            width: 300px;
+            display: inline-block;
+            margin: 30px 5px;
+            background-color: hsl(119, 33%, 35%);
+            border: solid 1px black;
+            border-bottom-left-radius: 50px;
+            border-top-right-radius: 50px;
+            box-shadow: 2px 4px 10px 0 black;
+        }
+    }
 }
 #bordeinf {
     border-bottom: solid 3px black;
-}
-.resena__lista {
-    align-self: center;
-    width: 400px;
-}
-.resena__lista__item {
-    background: linear-gradient(-145deg, transparent, hsl(119, 33%, 75%), hsl(119, 33%, 60%));
-    display: flex;
-    align-self: center;
-    text-align: left;
-    color: black;
-    font-size: 20px;
-    list-style: none;
-    margin: 7px 5px;
-    padding-bottom: 10px;
-    padding-left: 10px;
-    border-bottom: solid 2px black;
-    border-left: solid 2px black;
-    border-bottom-left-radius: 35px;
-    border-top-right-radius: 35px;
-}
-.resena__lista__img {
-    height: 300px;
-    width: 300px;
-    display: inline-block;
-    margin: 30px 5px;
-    background-color: hsl(119, 33%, 35%);
-    border: solid 1px black;
-    border-bottom-left-radius: 50px;
-    border-top-right-radius: 50px;
-    box-shadow: 2px 4px 10px 0 black;
 }
 .fotosresena {
     height: 265px;
