@@ -35,12 +35,12 @@ ul {
     position: fixed;
     z-index: 5;
     width: 100%;
-    background-image: linear-gradient(90deg, hsl(119, 33%, 25%), hsl(119, 33%, 40%), hsl(119, 33%, 50%), hsl(119, 33%, 40%), hsl(119, 33%, 25%));
-    border-bottom: solid 3px hsl(119, 33%, 25%);
+    background-image: map-get($colores, "bgimg-navfot");
+    border-bottom: solid 3px map-get($colores, "color-byb");
 
     &__lista__item {
         display: inline-block;
-        background-color: hsl(119, 33%, 35%); 
+        background-color: map-get($colores, "color-byb"); 
         margin: 0 2px;
         border: solid 2px black;
         box-shadow: 1px 2px 5px 0 black;
@@ -56,7 +56,7 @@ ul {
 
         &:hover {
             transform: scale(1.1);
-            background-color: hsl(119, 33%, 15%);
+            background-color: map-get($colores, "color-bybh");
             transition: transform .5s, background .3s;
         }
     }
@@ -64,26 +64,20 @@ ul {
 
 .indexPrincipal{
     padding-top: 140px;
-    background: hsl(119, 33%, 90%);
+    background: map-get($colores, "color-fondo");
 }
 .subtituloIndex {
-    text-align: center;
-    font-size: 30px;
-    font-family: 'Roboto', sans-serif;
+    @include titulos(center);
 }
 .subtituloIndex2 {
     text-align: center;
-    font-size: 25px;
+    font-size: 24px;
     font-family: 'Roboto', sans-serif;
 }
 .textoIndex{
-    padding: 25px;
+    @extend %textos;
+    padding: 18px;
     width: 85%;
-    margin: auto;
-    text-align: center;
-    font-size: 20px;
-    font-style: italic;
-    font-family: 'Roboto', sans-serif;    
 }
 .indexImagenes {
     text-align: center;
@@ -96,7 +90,7 @@ ul {
 
     &__Items {
         margin: 30px 5px;
-        background-color: hsl(119, 33%, 35%);
+        background-color: map-get($colores, "color-byb");
         border: solid 1px black;
         border-bottom-left-radius: 50px;
         border-top-right-radius: 50px;
@@ -110,17 +104,17 @@ ul {
     border-bottom: solid 3px black;
 }
 .pie{
-    border-top: solid 3px hsl(119, 33%, 25%);
+    border-top: solid 3px map-get($colores, "color-byb");
     display: flex;
     justify-content: center;
-    background-image: linear-gradient(90deg, hsl(119, 33%, 25%), hsl(119, 33%, 40%), hsl(119, 33%, 55%), hsl(119, 33%, 40%), hsl(119, 33%, 25%));
+    background-image: map-get($colores, "bgimg-navfot");
 
     &__lista__item {
         display: inline-flex;
         align-items: center;
         margin: 20px;
         padding-right: 10px;
-        background-color: hsl(119, 33%, 60%);
+        background-color: map-get($colores, "color-byb");
         font-size: 20px;
         font-family: 'Roboto', sans-serif; 
         border-bottom: solid 3px black;
@@ -132,7 +126,7 @@ ul {
             display: inline-flex;
             align-items: center;
             text-decoration: none;
-            color: #000;
+            color: #fff;
             font-size: 20px;
             font-family: 'Roboto', sans-serif; 
         }
@@ -140,7 +134,7 @@ ul {
         &:hover {
             transform: scale(1.05);
             transition: transform .5s, background .3s;
-            background-color: hsl(119, 33%, 45%);
+            background-color: map-get($colores, "color-bybh");
         }
     }
 }

@@ -1,3 +1,10 @@
+.textoIndex, .QuienSoy {
+  margin: auto;
+  text-align: center;
+  font-size: 20px;
+  font-style: italic;
+  font-family: 'Roboto', sans-serif; }
+
 * {
   margin: 0;
   padding: 0; }
@@ -35,8 +42,8 @@ ul {
   position: fixed;
   z-index: 5;
   width: 100%;
-  background-image: linear-gradient(90deg, #2b552b, #458844, #57aa55, #458844, #2b552b);
-  border-bottom: solid 3px #2b552b; }
+  background-image: linear-gradient(90deg, #2b552b, #458844, #68b266, #458844, #2b552b);
+  border-bottom: solid 3px #3d773c; }
   .navegador__lista__item {
     display: inline-block;
     background-color: #3d773c;
@@ -60,23 +67,19 @@ ul {
   background: #ddeedd; }
 
 .subtituloIndex {
-  text-align: center;
-  font-size: 30px;
-  font-family: 'Roboto', sans-serif; }
+  font-size: 28px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  text-align: center; }
 
 .subtituloIndex2 {
   text-align: center;
-  font-size: 25px;
+  font-size: 24px;
   font-family: 'Roboto', sans-serif; }
 
 .textoIndex {
-  padding: 25px;
-  width: 85%;
-  margin: auto;
-  text-align: center;
-  font-size: 20px;
-  font-style: italic;
-  font-family: 'Roboto', sans-serif; }
+  padding: 18px;
+  width: 85%; }
 
 .indexImagenes {
   text-align: center;
@@ -100,7 +103,7 @@ ul {
   border-bottom: solid 3px black; }
 
 .pie {
-  border-top: solid 3px #2b552b;
+  border-top: solid 3px #3d773c;
   display: flex;
   justify-content: center;
   background-image: linear-gradient(90deg, #2b552b, #458844, #68b266, #458844, #2b552b); }
@@ -109,7 +112,7 @@ ul {
     align-items: center;
     margin: 20px;
     padding-right: 10px;
-    background-color: #78bb77;
+    background-color: #3d773c;
     font-size: 20px;
     font-family: 'Roboto', sans-serif;
     border-bottom: solid 3px black;
@@ -120,13 +123,13 @@ ul {
       display: inline-flex;
       align-items: center;
       text-decoration: none;
-      color: #000;
+      color: #fff;
       font-size: 20px;
       font-family: 'Roboto', sans-serif; }
     .pie__lista__item:hover {
       transform: scale(1.05);
       transition: transform .5s, background .3s;
-      background-color: #4e994d; }
+      background-color: #1a331a; }
 
 .logospie {
   margin: 10px;
@@ -140,9 +143,11 @@ ul {
   font-family: 'Roboto', sans-serif; }
 
 .subtituloContacto {
-  padding-left: 10%;
+  font-size: 28px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
   text-align: left;
-  font-size: 30px; }
+  padding-left: 10%; }
 
 .ubicacion {
   display: flex;
@@ -162,17 +167,10 @@ ul {
       border-top-right-radius: 15px;
       box-shadow: 1px 2px 5px 0 black; }
 
-.logosContacto {
-  height: 40px;
-  width: 40px;
-  margin: 3px;
-  border: solid black;
-  border-radius: 100%; }
-
 .map {
   width: 350px;
   height: 300px;
-  border: outset 5px #4e994d;
+  border: outset 5px #3d773c;
   border-top-right-radius: 25%;
   border-bottom-left-radius: 25%;
   box-shadow: 2px 4px 20px 0 black; }
@@ -185,20 +183,21 @@ ul {
   border-radius: 100%; }
 
 .subtituloFormulario {
-  padding: 20px 0 20px 10%;
-  text-align: left;
-  font-size: 25px;
-  font-style: italic; }
+  font-size: 28px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  margin: 20px auto; }
 
 .formularioContacto {
   margin: 0 auto;
   padding: 30px;
   width: 80%;
-  background-color: #89c388;
-  border: solid 2px black;
+  background-color: #78bb77;
   border-bottom-left-radius: 55px;
   border-top-right-radius: 55px;
-  font-size: 20px; }
+  font-size: 20px;
+  box-shadow: 2px 4px 20px 0 black; }
 
 .form-control {
   border: none;
@@ -215,7 +214,7 @@ ul {
   border-bottom: solid 3px black; }
 
 .form-select {
-  background-color: #89c388;
+  background-color: #78bb77;
   border: 1px solid black; }
 
 .form-select:focus {
@@ -235,21 +234,18 @@ ul {
 .mainQuienSoy {
   padding-top: 130px;
   padding-bottom: 40px;
-  background: #ddeedd;
-  font-family: 'Roboto', sans-serif; }
+  background: #ddeedd; }
 
 .subtituloQuienSoy {
-  padding-left: 10%;
+  font-size: 28px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
   text-align: left;
-  font-size: 30px; }
+  padding-left: 10%; }
 
 .QuienSoy {
-  margin: auto;
-  padding: 30px;
-  width: 70%;
-  font-size: 25px;
-  font-style: italic;
-  text-align: center; }
+  padding: 18px;
+  width: 70%; }
 
 .quiensoyfoto {
   margin: 15px;
@@ -261,9 +257,10 @@ ul {
   object-fit: cover; }
 
 .subtituloTitulos {
-  padding-left: 10%;
-  text-align: left;
-  font-size: 20px; }
+  font-size: 28px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  text-align: center; }
 
 .titulos {
   margin: 25px auto;
@@ -274,7 +271,7 @@ ul {
   margin: 5px auto;
   padding: 5px 10px 0px 10px;
   width: max-content;
-  background-color: #89c388;
+  background-color: #78bb77;
   border-bottom-left-radius: 25px;
   border-top-right-radius: 25px;
   box-shadow: 2px 4px 10px 0 black;
@@ -296,16 +293,17 @@ ul {
   background-color: #cbffee;
   box-shadow: 2px 4px 10px 0 black;
   object-fit: contain;
-  border: outset 6px #68b266;
+  border: outset 6px #3d773c;
   border-bottom-left-radius: 25px;
   border-top-right-radius: 25px; }
 
 .subtituloGaleria {
-  padding-left: 5%;
-  padding-bottom: 20px;
+  font-size: 28px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
   text-align: left;
-  font-size: 30px;
-  font-weight: bolder; }
+  padding-left: 5%;
+  padding-bottom: 20px; }
 
 .mainGaleria {
   padding-top: 130px;
@@ -326,7 +324,7 @@ ul {
     align-self: center;
     width: 400px; }
     .resena__lista__item {
-      background: linear-gradient(-145deg, transparent, #abd4aa, #78bb77);
+      background: #78bb77;
       display: flex;
       align-self: center;
       text-align: left;
@@ -336,6 +334,7 @@ ul {
       margin: 7px 5px;
       padding-bottom: 10px;
       padding-left: 10px;
+      padding-right: 20px;
       border-bottom: solid 2px black;
       border-left: solid 2px black;
       border-bottom-left-radius: 35px;
@@ -352,6 +351,9 @@ ul {
       box-shadow: 2px 4px 10px 0 black; }
 
 #bordeinf {
+  border-bottom: solid 3px black; }
+
+#bordeinf2 {
   border-bottom: solid 3px black; }
 
 .fotosresena {
@@ -421,9 +423,6 @@ ul {
   .quiensoyfoto {
     width: 200px;
     height: 250px; }
-  .subtituloTitulos {
-    padding: 5px;
-    text-align: center; }
   .titulos {
     width: 85%; }
   .resena__lista {

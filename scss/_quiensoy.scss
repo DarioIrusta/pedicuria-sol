@@ -2,20 +2,15 @@
     padding-top: 130px;
     padding-bottom: 40px;
     background: map-get($colores, "color-fondo");
-    font-family: 'Roboto', sans-serif; 
 }
 .subtituloQuienSoy{
+    @include titulos(left);
     padding-left: 10%;
-    text-align: left;
-    font-size: 30px;
 }
 .QuienSoy {
-    margin: auto;
-    padding: 30px;
+    @extend %textos;
+    padding: 18px;
     width: 70%;
-    font-size: 25px;
-    font-style: italic;
-    text-align: center;    
 }
 .quiensoyfoto {
     margin: 15px;
@@ -27,9 +22,7 @@
     object-fit: cover;
 }
 .subtituloTitulos{
-    padding-left: 10%;
-    text-align: left;
-    font-size: 20px;
+    @include titulos(center);
 }
 .titulos {
     margin: 25px auto;
@@ -40,7 +33,7 @@
     margin: 5px auto;
     padding: 5px 10px 0px 10px;
     width: max-content;
-    background-color: hsl(119, 33%, 65%);
+    background-color: map-get($colores, "color-items");
     border-bottom-left-radius: 25px;
     border-top-right-radius: 25px;
     box-shadow: 2px 4px 10px 0 black;

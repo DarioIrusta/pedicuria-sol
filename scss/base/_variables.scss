@@ -1,3 +1,22 @@
 $colores: (
     "color-fondo": hsl(119, 33%, 90%),
+    "color-byb": hsl(119, 33%, 35%), 
+    "color-bybh": hsl(119, 33%, 15%), 
+    "bgimg-navfot": linear-gradient(90deg, hsl(119, 33%, 25%), hsl(119, 33%, 40%), hsl(119, 33%, 55%), hsl(119, 33%, 40%), hsl(119, 33%, 25%)),
+    "color-items": hsl(119, 33%, 60%),
 );
+
+@mixin titulos ($textalign){
+    font-size: 28px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    text-align: $textalign;
+}
+
+%textos{
+    margin: auto;
+    text-align: center;
+    font-size: 20px;
+    font-style: italic;
+    font-family: 'Roboto', sans-serif;   
+}

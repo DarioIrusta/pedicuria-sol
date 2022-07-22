@@ -1,9 +1,7 @@
 .subtituloGaleria{
+    @include titulos(left);
     padding-left: 5%;
     padding-bottom: 20px;
-    text-align: left;
-    font-size: 30px;
-    font-weight: bolder;
 }
 .mainGaleria {
     padding-top: 130px;
@@ -26,7 +24,7 @@
         width: 400px;
 
         &__item {
-            background: linear-gradient(-145deg, transparent, hsl(119, 33%, 75%), hsl(119, 33%, 60%));
+            background: map-get($colores, "color-items");
             display: flex;
             align-self: center;
             text-align: left;
@@ -36,6 +34,7 @@
             margin: 7px 5px;
             padding-bottom: 10px;
             padding-left: 10px;
+            padding-right: 20px;
             border-bottom: solid 2px black;
             border-left: solid 2px black;
             border-bottom-left-radius: 35px;
@@ -47,7 +46,7 @@
             width: 300px;
             display: inline-block;
             margin: 30px 5px;
-            background-color: hsl(119, 33%, 35%);
+            background-color: map-get($colores, "color-byb");
             border: solid 1px black;
             border-bottom-left-radius: 50px;
             border-top-right-radius: 50px;
@@ -56,6 +55,9 @@
     }
 }
 #bordeinf {
+    border-bottom: solid 3px black;
+}
+#bordeinf2 {
     border-bottom: solid 3px black;
 }
 .fotosresena {
