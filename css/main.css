@@ -245,12 +245,12 @@ ul {
 
 .QuienSoy {
   padding: 18px;
-  width: 70%; }
+  width: 60%; }
 
 .quiensoyfoto {
   margin: 15px;
   height: 350px;
-  width: 350px;
+  width: 250px;
   border-top-left-radius: 15%;
   border-bottom-right-radius: 15%;
   box-shadow: 2px 4px 10px 2px black;
